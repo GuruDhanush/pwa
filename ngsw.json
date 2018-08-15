@@ -1,0 +1,73 @@
+{
+  "configVersion": 1,
+  "index": "https://gurudhanush.github.io/pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://gurudhanush.github.io/pwa/favicon.ico",
+        "https://gurudhanush.github.io/pwa/index.html",
+        "https://gurudhanush.github.io/pwa/main.ec021dfa7d32a0412bbc.js",
+        "https://gurudhanush.github.io/pwa/polyfills.f6ae3e8b63939c618130.js",
+        "https://gurudhanush.github.io/pwa/runtime.06daa30a2963fa413676.js",
+        "https://gurudhanush.github.io/pwa/styles.fc1bd739e6772ae2519c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://gurudhanush.github.io/pwa/assets/icons/baseline-mood-24px.svg",
+        "https://gurudhanush.github.io/pwa/assets/icons/icon-128x128.png",
+        "https://gurudhanush.github.io/pwa/assets/icons/icon-144x144.png",
+        "https://gurudhanush.github.io/pwa/assets/icons/icon-152x152.png",
+        "https://gurudhanush.github.io/pwa/assets/icons/icon-192x192.png",
+        "https://gurudhanush.github.io/pwa/assets/icons/icon-384x384.png",
+        "https://gurudhanush.github.io/pwa/assets/icons/icon-512x512.png",
+        "https://gurudhanush.github.io/pwa/assets/icons/icon-72x72.png",
+        "https://gurudhanush.github.io/pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://gurudhanush.github.io/pwa/assets/icons/baseline-mood-24px.svg": "eb6b5a4809a00abf2a5f27faff4b0a344901757f",
+    "https://gurudhanush.github.io/pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://gurudhanush.github.io/pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://gurudhanush.github.io/pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://gurudhanush.github.io/pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://gurudhanush.github.io/pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://gurudhanush.github.io/pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://gurudhanush.github.io/pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://gurudhanush.github.io/pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://gurudhanush.github.io/pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://gurudhanush.github.io/pwa/index.html": "0b8cdff33ffad39a493b5a0f8ee4cd144c225f9c",
+    "https://gurudhanush.github.io/pwa/main.ec021dfa7d32a0412bbc.js": "4e9d8b91afb53df6c0331f540958709d1e89819c",
+    "https://gurudhanush.github.io/pwa/polyfills.f6ae3e8b63939c618130.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
+    "https://gurudhanush.github.io/pwa/runtime.06daa30a2963fa413676.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://gurudhanush.github.io/pwa/styles.fc1bd739e6772ae2519c.css": "103143f1c47e14983ef03295b7d8505bd30e8720"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
